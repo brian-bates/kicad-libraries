@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SW_SMALL
+#
+DEF ~SW_SMALL SW 0 40 Y Y 1 F N
+F0 "SW" -10 -115 60 H V C CNN
+F1 "SW_SMALL" 0 -115 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -50 0 11 0 1 0 N
+C 50 -50 10 0 1 0 N
+C 50 50 10 0 1 0 N
+P 2 0 1 0  -50 -20  65 40 N
+X ~ 1 150 50 100 L 50 50 1 1 I
+X ~ 2 -150 0 100 R 50 50 1 1 I
+X ~ 3 150 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
